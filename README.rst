@@ -1,9 +1,10 @@
 =================
-Salt Vagrant Demo
+Salt Hacking!!!
 =================
 
 A Salt Demo using Vagrant.
 
+Forked from: https://github.com/UtahDave/salt-vagrant-demo.git
 
 Instructions
 ============
@@ -19,12 +20,11 @@ already be installed.
     vagrant up
 
 
-This will download an Ubuntu  VirtualBox image and create three virtual
-machines for you. One will be a Salt Master named `master` and two will be Salt
-Minions named `minion1` and `minion2`.  The Salt Minions will point to the Salt
-Master and the Minion's keys will already be accepted. Because the keys are
-pre-generated and reside in the repo, please be sure to regenerate new keys if
-you use this for production purposes.
+This will download an Ubuntu  VirtualBox image and create five virtual
+machines for you. One will be a Salt Master named `master` and four will be Salt
+Minions named `minion1` and `minion2`, etc.  The Salt Minions will point to the Salt
+Master and the Minion's keys will already be accepted, with the exception of Minion3 and 4.
+to give practice accepting keys. 
 
 You can then run the following commands to log into the Salt Master and begin
 using Salt.
