@@ -1,7 +1,11 @@
 base:
   '*':
     - default
-  'minion[1-2]':
+
+#Deploys based on grain roles!
+  'role:webserver':
+    - match: grain
     - application1_pillar
-  'minion[3-4]':
+  'role:cacheserver':
+    - match: grain
     - application2_pillar
