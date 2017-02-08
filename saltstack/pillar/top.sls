@@ -1,6 +1,7 @@
 base:
   '*':
     - default
+    - users_pillar
 
 #Deploys based on grain roles!
   'role:webserver':

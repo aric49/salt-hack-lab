@@ -6,6 +6,7 @@
 base:
   '*': #Run on all nodes!
     - common
+    - user_accounts
 
 #Sets Roles!
   'minion[1-2]':
